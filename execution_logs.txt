@@ -1,0 +1,24 @@
+==============================
+ COLLECTOR AGENT STARTED
+==============================
+[Collector] calling tool: search_web('NBFC regulatory updates')
+[Collector] calling tool: search_web('NBFC fintech competition')
+[Collector] calling tool: search_web('NBFC market trends')
+
+==============================
+ EXTRACTOR AGENT STARTED
+==============================
+[Extractor] Calling MCP tool: extract_entities
+[MCP] extract_entities called successfully
+
+==============================
+ IMPACT AGENT STARTED
+==============================
+[Impact] Calling MCP tool: impact_score
+[MCP] impact_score executed for event: RBI introduces stricter compliance guidelines
+
+==============================
+ REPORT WRITER AGENT STARTED
+==============================
+[Writer] Calling MCP tool: generate_market_report
+[MCP] generate_market_report completed successfully
